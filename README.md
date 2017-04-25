@@ -8,7 +8,7 @@ Then, connect your web browser to `http://your-pc-ip-address:8044/`
 
 To show a camera from Blue Iris when motion is detected, open the properties of the camera you want alerts from in Blue Iris.  Go to the **Alerts** tab and configure **Request from a web service** as shown:
 
-~[Blue Iris Screenshot](image:http://i.imgur.com/mEowkIo.png)
+![Blue Iris Screenshot](image:http://i.imgur.com/mEowkIo.png)
 
 Modify the address and port as needed.  If you configure multiple cameras, change the priority in the `When triggered POST text` on each camera to something different.  The highest priority will be shown in the event that more than one camera alert is active simultaneously.
 
